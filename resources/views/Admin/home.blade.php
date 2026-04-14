@@ -1,4 +1,4 @@
 @extends('Admin.layout')
-@section('content')
+@section('body')
 @include('Admin.body')
 @endsection

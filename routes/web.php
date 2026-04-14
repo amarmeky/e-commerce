@@ -15,6 +15,12 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-});
+}); 
 
-Route::get('redirect',[HomeController::class,'redirect']);
+Route::get('redirect', [HomeController::class, 'redirect']);
+Route::get('Products', function () {
+    return view('Admin.allProducts');
+});
+Route::get('createProduct', function () {
+    return view('Admin.createProduct');
+});

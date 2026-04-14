@@ -28,6 +28,6 @@
             @include('Admin.navbar')
             <div class="main-panel">
                 <div class="content-wrapper">
-                    @yield('content')
+                    @yield('body')
                 </div>
                 @include('Admin.footer')
